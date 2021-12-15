@@ -2,18 +2,6 @@
 # 14/12-2021
 # Önskelista
 
-#def menu():
-#    print("[1] Skapa önskelista")
-#    print("[2] Läs upp önskelista")
-#    print("[0] Stäng programmet")
-
-#menu()
-#option = int(input("Ange ditt val: "))
-
-#while option != 0:
-#    if option == 1:
-
-
 def create_list(namn_på_lista):
     with open(namn_på_lista, "w", encoding="utf8") as x:
         namn = input("Vad heter barnet?: ")
