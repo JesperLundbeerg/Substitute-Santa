@@ -8,7 +8,7 @@ def create_list(namn_på_lista):
         x.write(namn+"\n")
 
         while True:
-            sak = input("Vad vill du lägga till i önskelistan? Skriv # när du är klar: ")
+            sak = input("Vad vill du lägga till i önskelistan? Skriv '#' när du är klar: ")
             if "#" in sak : break
             else: x.write(f"{sak}\n")
 
